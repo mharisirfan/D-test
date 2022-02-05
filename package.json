@@ -1,23 +1,22 @@
 {
-  "name": "D-test",
+  "name": "portfolio-master",
   "version": "1.0.0",
-  "description": "Are you a researcher, a developer or perhaps an explorer of technology who is looking forward to create an awesome personal brand? <p align=\"center\"><img src=\"https://media.giphy.com/media/dkGhBWE3SyzXW/giphy.gif\" width = 40%></p>",
+  "description": "![portolio](https://user-images.githubusercontent.com/87219816/147781405-73e13bc1-ae9e-4ca4-8b33-ae5623758a84.PNG)",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mharisirfan/D-test"
+    "url": "git+https://github.com/mharisirfan/D-test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mharisirfan/D-test/issues"
   },
-  "homepage": "https://github.com/mharisirfan/D-test#README"
+  "homepage": "https://github.com/mharisirfan/D-test#readme"
 }
