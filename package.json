@@ -1,6 +1,6 @@
 {
   "name": "portfolio-master",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "![portolio](https://user-images.githubusercontent.com/87219816/147781405-73e13bc1-ae9e-4ca4-8b33-ae5623758a84.PNG)",
   "main": "server.js",
   "dependencies": {},
