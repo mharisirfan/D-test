@@ -1,12 +1,13 @@
 {
   "name": "portfolio-master",
-  "version": "1.2.2",
-  "description": "![portolio](https://user-images.githubusercontent.com/87219816/147781405-73e13bc1-ae9e-4ca4-8b33-ae5623758a84.PNG)",
+  "version": "1.0.0",
+  "description": "Are you a researcher, a developer or perhaps an explorer of technology who is looking forward to create an awesome personal brand? <p align=\"center\"><img src=\"https://media.giphy.com/media/dkGhBWE3SyzXW/giphy.gif\" width = 40%></p>",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
