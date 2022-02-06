@@ -6,8 +6,8 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.use("/Img", express.static(__dirname + "/Img"));
-app.use("/style", express.static(__dirname + "/style"));
-app.use("/particles", express.static(__dirname + "/particles"));
+app.use("/assets/css", express.static(__dirname + "/assets/css"));
+app.use("/assets/js", express.static(__dirname + "/assets/js"));
 
 app.get("/", function(req,res){
     res.sendFile(__dirname + "/index.html");
