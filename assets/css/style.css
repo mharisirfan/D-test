@@ -529,6 +529,25 @@ footer {
     font-size: 5em;
     font-family: var(--font);
   }
+
+  .ab-text{
+    display: block;
+    font-size: 25px;    
+
+  }
+  .ab-p, .about{
+    font-size: 25px;
+  }
+  .ab-img{
+    margin-left: 50px;
+  }
+  .ab-para{
+    /*margin-top: 2vh;*/
+    padding-right: 2px;
+    margin-left: 65px;
+    margin-top: 20px;
+
+  }
 }
 @media (max-width: 700px) {
   body {
@@ -555,7 +574,7 @@ footer {
 }
 
 @media (max-width: 450px) {
-   #main .user_img img{
+  #main .user_img img{
     width: 20em;
     height: 20em;
   }
@@ -578,17 +597,50 @@ footer {
     height: 50vh;
     width: 42vh;
   }
-  
-  .ab-para{
-    margin-top: 1.5vh;
-    margin-left: -8.5vh;
-    
-  }
   .hor-line{
     display: none;
   }
+  
+  .ab-para{
+    margin-top: 0.5vh;
+    margin-left: -8.5vh;
+    
+  }
   .ab-p{
     font-size: 17px;
+  }
+  .project{
+    display: block;
+  }
+  .horizontal-pro{
+    display: block;
+    
+  }
+  .contact{
+    display: block;
+    margin-left: 30px;
+
+  }
+  .address, .email{
+    margin-bottom:20px;
+
+  }
+  .contact-us{
+    margin-right: 5rem;
+  }
+  .text{
+    font-size: medium;
+    margin-left: -115px;
+  }
+  .form{
+    display: none;
+  }
+  .footer{
+    display: block;
+    margin-left: 70px;
+  }
+  body{
+    bottom: 100px;
   }
 }
 
@@ -597,3 +649,4 @@ footer {
     font-size: 8px;
   }
 }
+
