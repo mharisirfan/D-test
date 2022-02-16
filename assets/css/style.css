@@ -588,14 +588,25 @@ footer {
     height: 100%;
     padding: 2em 0.2em;
   }
-
+  body{
+    background-color: rgb(15, 14, 14);
+    
+  }
+  .social{
+    font-size: large;
+  }
   .ab-text{
     display: block;
+    padding-bottom: 100px;
   }
   .ab-img{
     margin-left: -8.5vh;
     height: 50vh;
     width: 42vh;
+    
+  }
+  .about{
+    padding-bottom: 120vh;
   }
   .hor-line{
     display: none;
@@ -616,21 +627,61 @@ footer {
     display: block;
     
   }
+ 
   .contact{
     display: block;
     margin-left: 30px;
 
   }
+  
+  .pro1, .pro2{
+    margin-bottom: 60px;
+  }
+  .nav-list{
+    display: none;
+  }
+  /* ----------Changing picuture for mobile view only---------- */
+  .p4{
+    content: url("Img/java-img.jpg");
+    margin-left: -30px;
+    width: 322px;;
+    height: 450px;
+  }
+  .pro4{
+    display: none;
+  }
+
+  /* ----------Changing text for mobile view only---------- */
+  .pr-5{
+    visibility: hidden;
+    position: relative;
+  }
+  .pr-5:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Java UMS";
+  }
   .address, .email{
-    margin-bottom:20px;
+    margin-bottom:40px;
 
   }
-  .contact-us{
-    margin-right: 5rem;
+  .project{
+    padding-bottom: 20px;
+  }
+  .hr-pro{
+    margin-right: 5px;
+    margin-left: 105px;
+    
+  }
+  .whatsapp-icon{
+    display: none;
   }
   .text{
     font-size: medium;
     margin-left: -115px;
+    padding-bottom: 45px;
   }
   .form{
     display: none;
@@ -638,6 +689,12 @@ footer {
   .footer{
     display: block;
     margin-left: 70px;
+    padding-bottom: 50px;
+
+  }
+  footer{
+    background-color: rgb(15, 14, 14);
+
   }
   body{
     bottom: 100px;
