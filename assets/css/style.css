@@ -642,7 +642,7 @@ footer {
   }
   /* ----------Changing picuture for mobile view only---------- */
   .p4{
-    content: url("Img/java-img.jpg");
+    content: url("../java-img.jpg");
     margin-left: -30px;
     width: 322px;;
     height: 450px;
