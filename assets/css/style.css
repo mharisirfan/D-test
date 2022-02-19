@@ -712,12 +712,7 @@ footer {
   .nav-list{
     display: none;
   }
-  .nav-bar{
-    visibility: hidden;
-  }
-  .nav-logo{
-    visibility: visible;
-  }
+  
   /* ----------Changing picuture for mobile view only---------- */
   .p4{
      /*content: url("../java-img.jpg");*/
