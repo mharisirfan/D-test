@@ -571,6 +571,78 @@ footer {
     margin-top: 20px;
 
   }
+  .project{
+    display: block;
+  }
+  .horizontal-pro{
+    display: block;
+    
+  }
+  .user_info ,.user_name{
+    font-size: small;
+  }
+ 
+  .contact{
+    display: block;
+    margin-left: 190px;
+
+  }
+  .ab-text{
+    font-size: 15px;
+  }
+  .pro1, .pro2{
+    margin-bottom: 60px;
+  }
+  .p4{
+     /*content: url("../java-img.jpg");*/
+    margin-left: -20px;
+    width: 350px;;
+    height: 450px;
+  }
+  .pro4{
+    display: none;
+  }
+  
+  .address, .email{
+    margin-bottom:40px;
+
+  }
+  .project{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .text{
+    font-size: medium;
+    margin-left: 75px;
+    padding-bottom: 45px;
+  }
+  .form{
+    display: none;
+  }
+  .footer{
+    display: block;
+    margin-left: 220px;
+    padding-bottom: 50px;
+
+  }
+  footer{
+    background-color: rgb(15, 14, 14);
+
+  }
+  .nav{
+    visibility: hidden;
+  }
+  .nav-logo{
+    visibility: visible;
+    padding-left: 10rem;
+  }
+  body,.footer{
+    background-color: rgb(15, 14, 14);
+    
+  }
+
+
 }
 
 @media (max-width: 450px) {
@@ -640,9 +712,15 @@ footer {
   .nav-list{
     display: none;
   }
+  .nav-bar{
+    visibility: hidden;
+  }
+  .nav-logo{
+    visibility: visible;
+  }
   /* ----------Changing picuture for mobile view only---------- */
   .p4{
-    /*content: url("../java-img.jpg");*/
+     /*content: url("../java-img.jpg");*/
     margin-left: -30px;
     width: 322px;;
     height: 450px;
@@ -700,7 +778,6 @@ footer {
     bottom: 100px;
   }
 }
-
 @media (max-width: 350px) {
   body{
     font-size: 8px;
