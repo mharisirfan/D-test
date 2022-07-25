@@ -327,10 +327,7 @@ body {
 }
 
 /* This is now css for contact*/
-.contact-us{
-  margin-left: 35rem;
-  font-size: 8px;
-}
+
 .contact {
   display: flex;
   justify-content: space-between;
@@ -344,38 +341,69 @@ body {
   margin-right: 1rem;
   color: #000;
 }
-.address {
-  background-color: rgb(77, 74, 74);
-  width: 18rem;
-  height: 20rem;
-  color: #000;
+
+.form{
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 3.8rem;
-  right: 3rem;
+  position: absolute;
+  margin-left: 40%;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
 }
-.email {
-  background-color: rgb(77, 74, 74);
-  width: 18rem;
-  height: 20rem;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  text-align: center;
-  padding-top: 1.8rem;
+
+.form .contact-form input{
+  width: 30rem;
+  background-color: transparent;
+  border: 0px;
+  border: transparent;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
 }
-.phone {
-  background-color: rgb(77, 74, 74);
-  width: 18rem;
-  height: 20rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-left: 4rem;
-  padding-top: 4.8rem;
+.form .contact-form input ~ span{
+  position: absolute;
+  left: 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 10px;
 }
+.form .contact-form input:focus ~span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form textarea{
+  width: 30rem;
+  border: 0px;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 17px;
+  border-bottom: 2px solid white;
+}
+.form .contact-form textarea ~ span
+{
+  position: absolute;
+  left: 20px;
+  margin-top: 10px;
+  transition: 0.5s ease-in-out;
+}
+.form .contact-form textarea:focus ~span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+  padding: 0.6em 2em;
+  background: none;
+  color: var(--color);
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+}
+.form .contact-form input[type=submit]:hover{
+  background-color: var(--secondary-color);
+  
+}
+
 .message {
   display: flex;
   justify-content: space-between;
@@ -682,7 +710,13 @@ footer {
   .hor-line{
     display: none;
   }
-  
+  .message{
+    display: block;
+  }
+  .form .right{
+    display: none;
+    visibility: none;
+  }
   .ab-para{
     margin-top: 0.5vh;
     margin-left: -8.5vh;
@@ -708,13 +742,10 @@ footer {
   .pro1, .pro2{
     margin-bottom: 60px;
   }
-  .nav-list{
-    display: none;
-  }
   
   /* ----------Changing picuture for mobile view only---------- */
   .p4{
-     /*content: url("../java-img.jpg");*/
+    /*content: url("Img/java-img.jpg");*/
     margin-left: -30px;
     width: 322px;;
     height: 450px;
@@ -735,10 +766,7 @@ footer {
     left: 0;
     content: "Java UMS";
   }
-  .address, .email{
-    margin-bottom:40px;
-
-  }
+  
   .project{
     padding-bottom: 20px;
   }
@@ -746,9 +774,6 @@ footer {
     margin-right: 5px;
     margin-left: 105px;
     
-  }
-  .whatsapp-icon{
-    display: none;
   }
   .text{
     font-size: medium;
@@ -768,10 +793,9 @@ footer {
     background-color: rgb(15, 14, 14);
 
   }
-  body{
-    bottom: 100px;
-  }
+  
 }
+
 @media (max-width: 350px) {
   body{
     font-size: 8px;
