@@ -204,6 +204,7 @@ body {
 .skill_box {
   flex-wrap: wrap;
 }
+
 .skill_box .box {
   margin: 2em 2em;
   width: 15em;
@@ -220,6 +221,12 @@ body {
   cursor: pointer;
   position: relative;
   z-index: 1;
+}
+.skill_box .box .fa-github{
+  border-style: none;
+}
+.skill_box .box .fa-github:hover{
+  color: white;
 }
 .skill_box .box::before {
   content: "";
