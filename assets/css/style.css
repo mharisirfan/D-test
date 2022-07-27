@@ -510,16 +510,25 @@ body {
 footer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: rgb(20, 20, 20);
   color: antiquewhite;
   width: 84.2rem;
   height: 2.4rem;
-  padding-top: 0.5rem;
+  padding-top: 0.8rem;
 }
 .content {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.end-icons{
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+  right: 50px;
+  padding-bottom: 20px;
+}
+
 /* ---------- Media Queries ---------- */
 @media (max-width: 1120px) {
   #main .user_img img {
@@ -680,6 +689,7 @@ footer {
 }
 
 @media (max-width: 450px) {
+  
   #main .user_img img{
     width: 20em;
     height: 20em;
@@ -704,15 +714,21 @@ footer {
   .ab-text{
     display: block;
     padding-bottom: 100px;
+
+  }
+  .ab-text .ab-p{
+    padding-right: 4px;
+    margin-right: 10px;
+    font-size: larger;
   }
   .ab-img{
-    margin-left: -8.5vh;
-    height: 50vh;
+    margin-left: -9.5vh;
+    height: 54vh;
     width: 42vh;
     
   }
   .about{
-    padding-bottom: 120vh;
+    padding-bottom: 125vh;
   }
   .hor-line{
     display: none;
@@ -799,6 +815,9 @@ footer {
   footer{
     background-color: rgb(15, 14, 14);
 
+  }
+  .end-icons{
+    background-color: rgb(15, 14, 14);
   }
   
 }
