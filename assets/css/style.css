@@ -70,13 +70,16 @@
   --secondary-font: 'Work Sans', sans-serif;
 }
 body {
-  background: var(--bg);
+  background: var(--bg-dark);
   color: var(--color);
 }
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+hr{
+  color: red;
 }
 
 /* ---------- Home Page ---------- */
