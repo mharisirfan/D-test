@@ -158,6 +158,12 @@ hr{
   height: 27rem;
   width: 23rem;
   margin-left: 5rem;
+  border-radius: 5px;
+  border: 1px solid var(--light-color);
+}
+.ab-img:hover{
+    cursor: pointer;
+    box-shadow: var(--secondary-color) 0px 3px 10px;
 }
 .ab-p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -326,6 +332,10 @@ a:link{
   box-shadow: var(--secondary-color) 0px 3px 10px;
 }
 
+.project-btn{
+  padding-left: 45vw;
+  
+}
 
 
 /* ---------- Buttons ---------- */
@@ -490,29 +500,60 @@ a:link{
   border: 1px solid white;
 }
 .fa-whatsapp:hover {
+  cursor: pointer;
+  box-shadow: #27e650c4 0px 3px 6px;
   color: #27e650c4;
   border: 1px solid #27e650c4;
 }
 .fa-facebook:hover {
+  cursor: pointer;
+  box-shadow: #3b5998 0px 3px 6px;
   color: #3b5998;
   border: 1px solid #3b5998;
 }
 .fa-twitter:hover {
+  cursor: pointer;
+  box-shadow: #55acee 0px 3px 6px;
   color: #55acee;
   border: 1px solid #55acee;
 }
 .fa-github:hover {
+  cursor: pointer;
+  box-shadow: rgb(179, 179, 94) 0px 3px 6px;
   color: rgb(179, 179, 94);
   border: 1px solid rgb(179, 179, 94);
 }
 
 .fa-instagram:hover {
+  cursor: pointer;
+  box-shadow: var(--secondary-color) 0px 3px 6px;
   color: rgb(184, 45, 91);
   border: 1px solid rgb(184, 45, 91);
 }
 .fa-linkedin:hover {
+  cursor: pointer;
+  box-shadow: rgb(40, 103, 178) 0px 3px 6px;
   color: rgb(40, 103, 178);
   border: 1px solid rgb(40, 103, 178);
+}
+
+.top{
+	position: fixed;
+	bottom: 2.1rem;
+	right: 2.1rem;
+}
+.top i{
+	background: var(--secondary-color);
+	color: #ffff;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 0.5rem;
+}
+.top i:hover{
+  box-shadow: var(--secondary-color) 0px 3px 6px;
+  color: var(--secondary-color);
+	background: rgba(255, 255, 255, 0.09);
+  border: 1px solid var(--secondary-color);
 }
 
 /* This is CSS for footer */
