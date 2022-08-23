@@ -282,11 +282,20 @@ body {
 	border-radius: 0.5rem;
 	margin-bottom: 1.5rem;
 }
+a:link{
+  text-decoration: none;
+}
 .row{
+  border: 1px solid rgba(255, 255, 255, 0.068);
 	padding: 25px;
-	background: rgba(255, 255, 255, 0.089);
+	background: rgba(20, 21, 27, 0.63);
 	border-radius: 0.5rem;
 	transition: all .40s ease;
+  
+  
+}
+.row .a:link{
+  text-decoration: none;
 }
 .main-row{
 	display: flex;
@@ -299,7 +308,7 @@ body {
 	font-weight: 700;
 }
 .row h6{
-	color: var(--main-color);
+	color: var(--secondary-color);
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -307,8 +316,9 @@ body {
 .row-icon i{
 	font-size: 21px;
 }
+
 .row:hover{
-	transform: scale(1.01) translateY(-5px);
+	transform: scale(1.05) translateY(-5px);
 	cursor: pointer;
 }
 
