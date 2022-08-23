@@ -254,71 +254,65 @@ body {
 }
 
 /* ---------- Projects ---------- */
-#projects, #contact,.bg{
+#projects,  #contact,.bg{
   background-color: rgb(15, 14, 14);
 }
-.sp-pro {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: xx-large;
-}
+
 .project {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-left: 5rem;
   margin-right: 5rem;
+  
 }
-.p1 {
-  height: 27rem;
-  width: 20rem;
+.portfolio-content{
+  padding-bottom: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	align-items: center;
+	gap: 2rem;
+	margin-top: 5rem;
 }
-.pro1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.row img{
+	height: auto;
+	width: 100%;
+	border-radius: 0.5rem;
+	margin-bottom: 1.5rem;
 }
-.p2 {
-  height: 27rem;
-  width: 20rem;
+.row{
+	padding: 25px;
+	background: #12141c;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
 }
-.pro2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
 }
-.p3 {
-  height: 27rem;
-  width: 20rem;
+.row h3{
+	font-size: 25px;
+	font-weight: 700;
 }
-.pro3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.row h6{
+	color: var(--main-color);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
 }
-.pro4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.row-icon i{
+	font-size: 21px;
 }
-.p4 {
-  height: 15rem;
-  width: 28rem;
+.row:hover{
+	transform: scale(1.01) translateY(-5px);
+	cursor: pointer;
 }
-.horizontal-pro{
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  margin-left: 12rem;
-  margin-right: 12rem;
-}
-.pro5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+
 
 /* ---------- Buttons ---------- */
 .btn {
