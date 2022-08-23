@@ -254,7 +254,7 @@ body {
 }
 
 /* ---------- Projects ---------- */
-#projects,  #contact,.bg{
+#projects, #portfolio, #contact,.bg{
   background-color: rgb(15, 14, 14);
 }
 
@@ -284,7 +284,7 @@ body {
 }
 .row{
 	padding: 25px;
-	background: #12141c;
+	background: rgba(255, 255, 255, 0.089);
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 }
