@@ -320,6 +320,7 @@ a:link{
 .row:hover{
 	transform: scale(1.05) translateY(-5px);
 	cursor: pointer;
+  box-shadow: var(--secondary-color) 0px 3px 10px;
 }
 
 
