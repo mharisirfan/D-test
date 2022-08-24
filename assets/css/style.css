@@ -292,7 +292,7 @@ a:link{
   text-decoration: none;
 }
 .row{
-  border: 1px solid rgba(255, 255, 255, 0.068);
+  border: 2px solid rgba(255, 255, 255, 0.068);
 	padding: 25px;
 	background: rgba(20, 21, 27, 0.63);
 	border-radius: 0.5rem;
@@ -694,23 +694,7 @@ a:link{
   .ab-text{
     font-size: 15px;
   }
-  .pro1, .pro2{
-    margin-bottom: 60px;
-  }
-  .p4{
-     /*content: url("../java-img.jpg");*/
-    margin-left: -20px;
-    width: 350px;;
-    height: 450px;
-  }
-  .pro4{
-    display: none;
-  }
   
-  .address, .email{
-    margin-bottom:40px;
-
-  }
   .project{
     padding-bottom: 20px;
     text-align: center;
@@ -771,15 +755,8 @@ a:link{
   .about{
     padding-bottom: 130vh;
   }
-  .hor-line{
-    display: none;
-  }
   .message{
     display: block;
-  }
-  .form .right{
-    display: none;
-    visibility: none;
   }
   .ab-para{
     margin-top: 0.5vh;
@@ -810,9 +787,15 @@ a:link{
     border-radius: 0.5rem;
     transition: all .40s ease;
   }
+  .temp{
+    display: none;
+  }
   .project-btn{
     padding-left: 32vw;
     
+  }
+  .end-icons{
+    bottom: 0;
   }
   .last-text{
     font-size: 10px;
@@ -826,10 +809,19 @@ a:link{
     padding-bottom: 4px;
     padding-top:10px;
   }
-  
-  .form{
-    display: none;
+  /* .message .form{
+    display: block;
+    left: -145px;
   }
+  
+  
+  .form .contact-form input{
+    width: 20rem;
+  }
+  .form .contact-form textarea{
+    width: 20rem;
+  } */
+
   
   #menu-icon{
 		display: block;
@@ -843,7 +835,7 @@ a:link{
 		flex-direction: column;
 		background: rgb(15, 14, 14);
 		text-align: left;
-		transition: all .70s ease;
+		transition: all .60s ease;
     border: 1px solid rgba(255, 255, 255, 0.068);
 
 	}
@@ -851,6 +843,7 @@ a:link{
 		display: block;
 		padding: 1rem;
 		margin: 1rem;
+    height: 10px;
 	}
 	.navbar.active{
 		top: 100%;
