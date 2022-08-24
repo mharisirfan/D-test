@@ -552,26 +552,21 @@ a:link{
 }
 
 /* This is CSS for footer */
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(20, 20, 20);
-  color: antiquewhite;
-  width: 84.2rem;
-  height: 2.4rem;
-  padding-top: 0.8rem;
-}
-.content {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+.last-text p{
+	text-align: center;
+	padding: 20px;
+	color: var(--color);
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 1px;
 
+}
 .end-icons{
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
   text-align: center;
   right: 50px;
   padding-bottom: 20px;
+  padding-top: -20px;
 }
 
 /* ---------- Media Queries ---------- */
@@ -729,21 +724,7 @@ footer {
   .form{
     display: none;
   }
-  .footer{
-    display: block;
-    margin-left: 220px;
-    padding-bottom: 50px;
 
-  }
-  footer{
-    background-color: rgb(15, 14, 14);
-
-  }
-  
-  body,.footer{
-    background-color: rgb(15, 14, 14);
-    
-  }
 
 
 }
@@ -847,20 +828,7 @@ footer {
   .form{
     display: none;
   }
-  .footer{ 
-    display: block; 
-    margin-left: 32px; 
-    padding-bottom: 50px; 
-    font-size: 16px; 
-  }
-
-  footer{
-    background-color: rgb(15, 14, 14);
-
-  }
-  .end-icons{
-    background-color: rgb(15, 14, 14);
-  }
+  
   #menu-icon{
 		display: block;
 	}
@@ -871,9 +839,11 @@ footer {
 		left: 0;
 		display: flex;
 		flex-direction: column;
-		background: #12141c;
+		background: rgb(15, 14, 14);
 		text-align: left;
-		transition: all .40s ease;
+		transition: all .70s ease;
+    border: 1px solid rgba(255, 255, 255, 0.068);
+
 	}
 	.navbar a{
 		display: block;
