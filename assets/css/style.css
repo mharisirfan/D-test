@@ -54,9 +54,6 @@ header{
 
 header.sticky{
 	padding: 5px 16%;
-	/* background: #f6416e;
-	border-bottom: 1px solid #ff2e63; */
-  /* opacity: 0.7; */
   background: var(--bg-dark);
 	border-bottom: 1px solid rgba(255, 255, 255,0.5);
 }
@@ -646,6 +643,32 @@ footer {
 
   }
 }
+@media (max-width: 830px){
+	#menu-icon{
+		display: block;
+	}
+	.navbar{
+		position: absolute;
+		top: -600px;
+		right: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		background: #12141c;
+		text-align: left;
+		transition: all .40s ease;
+	}
+	.navbar a{
+		display: block;
+		padding: 1rem;
+		margin: 1rem;
+	}
+	.navbar.active{
+		top: 100%;
+	}
+	
+}
+
 @media (max-width: 700px) {
   body {
     font-size: 13px;
@@ -824,28 +847,8 @@ footer {
   .pro4{
     display: none;
   }
-
-  /* ----------Changing text for mobile view only---------- */
-  .pr-5{
-    visibility: hidden;
-    position: relative;
-  }
-  .pr-5:after {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "Java UMS";
-  }
   
-  .project{
-    padding-bottom: 20px;
-  }
-  .hr-pro{
-    margin-right: 5px;
-    margin-left: 105px;
-    
-  }
+
   .text{
     font-size: medium;
     margin-left: -115px;
@@ -873,7 +876,28 @@ footer {
   .end-icons{
     background-color: rgb(15, 14, 14);
   }
-  
+  #menu-icon{
+		display: block;
+	}
+	.navbar{
+		position: absolute;
+		top: -600px;
+		right: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		background: #12141c;
+		text-align: left;
+		transition: all .40s ease;
+	}
+	.navbar a{
+		display: block;
+		padding: 1rem;
+		margin: 1rem;
+	}
+	.navbar.active{
+		top: 100%;
+	}
 }
 
 @media (max-width: 350px) {
