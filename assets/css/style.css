@@ -769,7 +769,7 @@ a:link{
     
   }
   .about{
-    padding-bottom: 125vh;
+    padding-bottom: 130vh;
   }
   .hor-line{
     display: none;
@@ -814,7 +814,9 @@ a:link{
     padding-left: 32vw;
     
   }
-
+  .last-text{
+    font-size: 10px;
+  }
   .text{
     font-size: medium;
     margin-left: -115px;
