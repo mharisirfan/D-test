@@ -5,58 +5,51 @@
   box-sizing: border-box;
   font-family: var(--secondary-font);
   color: var(--color);
+  text-decoration: none;
   scroll-behavior: smooth;
+  list-style: none;
 }
 /* ----------NAvigation Bar---------- */
-.nav {
-  background-color: rgb(15, 14, 14);
-  top: 0;
-  height: 4.5rem;
-  padding-top: 5px;
-  padding-right: 3px;
-  color: white;
-  width: 100%;
-  position: fixed;
-  opacity: 100px;
+header{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 22px 16%;
+	border-bottom: 1px solid transparent;
+	transition: all .40s ease;
 }
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 8rem;
-  padding-right: 5rem;
+.logo img{
+	width: 135px;
+	height: auto;
 }
-.nav-logo {
-  font-size: 1.5rem;
-  cursor: pointer;
-
+.navbar{
+	display: flex;
 }
-.nav-list {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.navbar a{
+	color: var(--color);
+	font-size: larger;
+	font-weight: 600;
+	padding: 10px 18px;
+	margin: 0 2px;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
 }
-.nav-list a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  max-width: 6rem;
-  height: 2rem;
+.navbar a:hover{
+	background: var(--secondary-color);
+	color: var(--color);
 }
-.nav-list a:hover {
-  color: #f7517a;
-  text-decoration: none;
-  opacity: 1;
-}
-.nav-items {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  align-items: center;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 20px;
+#menu-icon{
+	font-size: 36px;
+	color: var(--text-color);
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
 }
 /* ----------These are variables ---------- */
 :root {
@@ -78,9 +71,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-hr{
-  color: red;
-}
+
 
 /* ---------- Home Page ---------- */
 #main {
@@ -724,12 +715,7 @@ footer {
     background-color: rgb(15, 14, 14);
 
   }
-  .nav{
-    visibility: hidden;
-  }
-  .nav-logo{
-    visibility: visible;
-  }
+  
   body,.footer{
     background-color: rgb(15, 14, 14);
     
