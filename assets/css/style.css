@@ -51,6 +51,16 @@ header{
 	cursor: pointer;
 	display: none;
 }
+
+header.sticky{
+	padding: 5px 16%;
+	/* background: #f6416e;
+	border-bottom: 1px solid #ff2e63; */
+  /* opacity: 0.7; */
+  background: var(--bg-dark);
+	border-bottom: 1px solid rgba(255, 255, 255,0.5);
+}
+
 /* ----------These are variables ---------- */
 :root {
   --bg: #252a34;
@@ -61,6 +71,8 @@ header{
   --secondary-color: #ff2e63;
   --font: 'Crimson Text', serif;
   --secondary-font: 'Work Sans', sans-serif;
+  --bg-color: #020312b5;
+  
 }
 body {
   background: var(--bg-dark);
