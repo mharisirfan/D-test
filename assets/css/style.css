@@ -271,9 +271,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  
 }
 .portfolio-content{
   padding-bottom: 45px;
@@ -300,8 +297,6 @@ a:link{
 	background: rgba(20, 21, 27, 0.63);
 	border-radius: 0.5rem;
 	transition: all .40s ease;
-  
-  
 }
 .row .a:link{
   text-decoration: none;
@@ -691,13 +686,7 @@ footer {
     margin-top: 20px;
 
   }
-  .project{
-    display: block;
-  }
-  .horizontal-pro{
-    display: block;
-    
-  }
+  
   .user_info ,.user_name{
     font-size: small;
   }
@@ -822,32 +811,28 @@ footer {
   .project{
     display: block;
   }
-  .horizontal-pro{
-    display: block;
-    
-  }
  
   .contact{
     display: block;
     margin-left: 30px;
 
   }
-  
-  .pro1, .pro2{
-    margin-bottom: 60px;
+  .portfolio-content{
+    margin-left: -27px;
   }
-  
-  /* ----------Changing picuture for mobile view only---------- */
-  .p4{
-    /*content: url("Img/java-img.jpg");*/
-    margin-left: -30px;
-    width: 322px;;
-    height: 450px;
+  .row{
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    padding: 19px;
+    margin-right: 25px;
+    margin-left: -2px;
+    background: rgba(20, 21, 27, 0.63);
+    border-radius: 0.5rem;
+    transition: all .40s ease;
   }
-  .pro4{
-    display: none;
+  .project-btn{
+    padding-left: 32vw;
+    
   }
-  
 
   .text{
     font-size: medium;
