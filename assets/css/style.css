@@ -153,6 +153,7 @@ body {
   color: white;
   margin-left: 6rem;
   margin-right: 6rem;
+  font-family: var(--secondary-font);
 }
 .ab-img {
   height: 27rem;
@@ -166,8 +167,6 @@ body {
     box-shadow: var(--secondary-color) 0px 3px 10px;
 }
 .ab-p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
 }
 .ab-para {
@@ -346,6 +345,16 @@ a:link{
 .btn:hover {
   background: var(--secondary-color);
 }
+.button {
+  text-align: center;
+  background-color: rgb(15, 14, 14);
+  color:white;
+  border: 2px solid var(--secondary-color);
+}
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
 
 /* This is now css for contact*/
 
@@ -437,15 +446,7 @@ a:link{
 .h1 {
   font-size: 4rem;
 }
-.button {
-  text-align: center;
-  background-color: rgb(15, 14, 14);
-  color:white;
-  border: 2px solid var(--secondary-color);
-}
-.button:hover {
-  background-color: var(--secondary-color);
-}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -549,6 +550,32 @@ a:link{
   color: var(--secondary-color);
 	background: rgba(255, 255, 255, 0.09);
   border: 1px solid var(--secondary-color);
+}
+
+/* .theme-button{
+	position: fixed;
+	bottom: 2.1rem;
+	left: 2.1rem;
+}
+.theme-button i{
+	background: var(--secondary-color);
+	color: #ffff;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 0.5rem;
+}
+.theme-button i:hover{
+  box-shadow: var(--secondary-color) 0px 3px 6px;
+  color: var(--secondary-color);
+	background: rgba(255, 255, 255, 0.09);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+} */
+
+
+.light-mode{
+  color: var(--bg);
+  background-color: white;
 }
 
 /* This is CSS for footer */
@@ -745,6 +772,9 @@ a:link{
     padding-right: 4px;
     margin-right: 10px;
     font-size: larger;
+  }
+  .hor-line{
+    display: none;
   }
   .ab-img{
     margin-left: -9.5vh;

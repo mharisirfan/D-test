@@ -6,10 +6,16 @@ window.addEventListener ("scroll", function() {
 
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+let theme = document.querySelector('.theme-button');
+var element = document.body;
 
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');
 	navbar.classList.toggle('active');
+};
+
+theme.onclick = () => {
+	element.classList.toggle("light-mode");
 };
 
 window.onscroll = () => {
