@@ -45,6 +45,12 @@
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</header>
+  <div class="spinner-wrapper">
+    <div class="spinner">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+  </div>
 
   <section id="main" class="center">
       <div id="particles-js"></div>
@@ -341,11 +347,23 @@
   <div class="last-text">
     <p>Copyright © 2022 | All rights Reserved by <span style="color: #ff2e63;"> Daoud Hussain</span>  </p>
   </div>
-  
+
+  <script>
+    $(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
+    </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
   <script src="assets/js/particles.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
-
+  
 </body>
 </html>
