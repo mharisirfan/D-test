@@ -159,8 +159,7 @@ body {
   height: 27rem;
   width: 23rem;
   margin-left: 5rem;
-  border-radius: 5px;
-  border: 1px solid var(--light-color);
+  border-radius: 2px;
 }
 .ab-img:hover{
     cursor: pointer;
@@ -481,6 +480,7 @@ a:link{
 .form {
   display: flex;
   flex-direction: column;
+  /* background-color: red; */
 }
 .text {
   display: flex;
@@ -870,33 +870,50 @@ a:link{
     padding-bottom: 4px;
     padding-top:10px;
   }
-  /* .message .form{
+  .message .form{
     display: block;
     left: -145px;
   }
   
+  .form{
+    min-height: 5vh;
+  }
   
   .form .contact-form input{
     width: 20rem;
   }
   .form .contact-form textarea{
     width: 20rem;
-  } */
+  }
+  .btn3{
+    width: 20rem;
+  }
+  .end-icons{
+    margin-top: 80%;
+    max-width:97%;
+    border-radius: 100%;
+  }
+  .last-text{
+    letter-spacing: 0px;
+  }
+  .top{
+    z-index: 1000;
+  }
 
   
   #menu-icon{
 		display: block;
 	}
-	.navbar{
+  .navbar{
 		position: absolute;
 		top: -600px;
 		right: 0;
 		left: 0;
 		display: flex;
 		flex-direction: column;
-		background: rgb(15, 14, 14);
+		background: var(--bg-dark);
 		text-align: left;
-		transition: all .60s ease;
+		transition: all .40s ease;
     border: 1px solid rgba(255, 255, 255, 0.068);
 
 	}
@@ -904,7 +921,6 @@ a:link{
 		display: block;
 		padding: 1rem;
 		margin: 1rem;
-    height: 10px;
 	}
 	.navbar.active{
 		top: 100%;
