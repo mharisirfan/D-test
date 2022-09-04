@@ -929,7 +929,8 @@ a:link{
   }
   .message .form{
     display: block;
-    left: -145px;
+    /* left: -10px; */
+    right: 1px;
   }
   
   .form{
@@ -946,7 +947,7 @@ a:link{
     width: 20rem;
   }
   .end-icons{
-    margin-top: 80%;
+    margin-top: 90%;
     max-width:97%;
     border-radius: 100%;
   }
