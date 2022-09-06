@@ -163,7 +163,7 @@ body {
 }
 .ab-img:hover{
     cursor: pointer;
-    box-shadow: var(--secondary-color) 0px 3px 10px;
+    box-shadow: rgba(122, 119, 119, 0.888) 0px 3px 10px;
 }
 .ab-p {
   font-size: large;
